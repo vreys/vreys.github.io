@@ -16,7 +16,9 @@ layout: default
     <div id="disqus_thread"></div>
     <script type="text/javascript">
         var disqus_shortname = 'vasiliyreysweblog';
-        {{ if jekyll.environment == "development" }} var disqus_developer = 1; {{ endif }}
+        {% if site.environment == "development" %}
+          var disqus_developer = 1;
+        {% endif %}
         var disqus_identifier = "{{ page.id }}";
 
         (function() {
