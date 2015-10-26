@@ -1,3 +1,4 @@
+environment: production
 # Site settings
 title: Блог о программировании
 email: vasiliy.reys@gmail.com
