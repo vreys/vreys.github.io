@@ -1,0 +1,15 @@
+# Site settings
+title: Блог о программировании
+email: vasiliy.reys@gmail.com
+description: > # this means to ignore newlines until "baseurl:"
+  Меня зовут Василий Рейс. Я занимаюсь разработкой веб-приложений и мне есть
+  что рассказать про Ruby (и Rails в том числе), TDD и, вообще, о программировании
+  в целом.
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://blog.vasiliyreys.com" # the base hostname & protocol for your site
+# twitter_username: jekyllrb
+github_username: vreys
+
+# Build settings
+markdown: kramdown
+permalink: /:year/:month/:day/:title.html
